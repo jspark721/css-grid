@@ -67,6 +67,23 @@ h6 {
 .editor__code {
   display: grid;
   grid-template-columns: auto 1fr;
+  border: 1px solid gray;
+  margin: 5px;
+}
+
+.editor__number {
+  display: block;
+  padding: 0 10px;
+}
+
+.editor__input {
+  resize: none;
+  background: none;
+  border: 0;
+  color: gray;
+  font-size: 16px;
+  line-height: 19px;
+  outline: 0;
 }
 
 .pen {
@@ -108,4 +125,10 @@ h6 {
   position: absolute;
   left: 3px;
   top: 3px;
+}
+
+.settings {
+  padding: 5px;
+  background: black;
+  border-top: 1px solid gray;
 }
